@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- author: Lorenzo Donini     lorenzo.donini90@gmail.com -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Sudoku</title>
+	<link type="text/css" href="sudostyle.css" rel="stylesheet"/>
+	<script type="text/javascript" src="sudoku.js"></script>
+</head>
+<body onload="createTable()">
+	<div class="mainSection">
+		<h1>Sudoku Game</h1>
+		<br><br>
+		<div>
+		<form>
+			<table id="sudokuTable">
+			</table>
+		</form>
+		</div>
+		<div id="bottomDiv"><br><br>
+			<h3 id="timeLabel"> </h3>
+			<form>
+			<button type="button" onclick="doCorrection()">Correction</button>
+			<button type="button" onclick="solveSudoku()">Solve</button>
+			<button type="button" onclick="clearTable()">Clear</button>
+			</form><br>
+		</div>
+	</div>
+</body>
+</html>

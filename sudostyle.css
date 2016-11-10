@@ -1,0 +1,107 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: gray;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.mainSection {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: -12pt;
+	background-color: white;
+	border-style:groove;
+	border-color: black;
+	border-width: 1px;
+}
+
+h1 {
+	position:relative;
+	top: 12px;
+	text-align: center;
+	font-size: 20pt;
+	color: blue;
+}
+
+h3 {
+	color: blue;
+	font-size:large;
+	text-align:center;
+}
+
+input {
+	width: inherit;
+	height: inherit;
+	text-align:center;
+	background-color: transparent;
+	border-color: transparent;
+	font-size:large;
+}
+
+input.closedCell {
+	color: red;
+}
+
+table {
+	color: #333333;
+	border-bottom-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+td {
+	background: #dcddc0 url('cell-grey.jpg');
+	width: 50px;
+	height: 50px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+td.rightDivider {
+	border-right-width: 2px;
+	border-right-color: black;
+}
+
+td.leftDivider {
+	border-left-width: 2px;
+	border-left-color: black;
+}
+
+td.topDivider {
+	border-top-width: 2px;
+	border-top-color: black;
+}
+
+td.bottomDivider {
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+}
+
+button {
+	background: url('black_btn.jpg');
+	color: white;
+	width: 10em;
+	height: 5em;
+	border:none;
+}
+
+button:hover {
+	border-color: #0099FF;
+	border-style: inset;
+	border-width: 2px;
+}
+
+button:active {
+	border-width: 3px;
+}
+
+#bottomDiv {
+	position: relative;
+	width: 31em;
+	left: 31%;
+	right: 31%;
+}
