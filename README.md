@@ -1,4 +1,4 @@
-#Sudoku
+# Sudoku
 
 Simple web-based Sudoku game.
 The Sudoku generation is random and uses a backtracking algorithm, implemented in javascript.
